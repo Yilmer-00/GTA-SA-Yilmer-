@@ -1,3 +1,40 @@
-.imagen{
+body{
+   background: #000000;
+  background: linear-gradient(
+    to right,
+    #ffffff,#727274
     
+  );
+}
+
+h1{
+    font-family:'Pricedown Bl';
+    text-align: center;
+    font-size: 70px;
+    
+}
+
+.logo{
+    width: 45%;
+    height: auto;
+    padding: 100px;
+    display: block;
+    margin: 0% auto;
+    border-radius: 15px;
+}
+@font-face {
+    font-family: "Pricedown Bl" ;
+    src: url("fuentes/Pricedown\ Bl.otf");
+
+}
+
+.subti01{
+    font-family:'Pricedown Bl';
+}
+.parrafo{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
