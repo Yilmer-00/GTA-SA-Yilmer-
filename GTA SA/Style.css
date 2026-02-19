@@ -1,4 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
+    margin: 0;
 
 
    background: #000000;
@@ -8,74 +15,110 @@ body{
   );
 }
 
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255)55, 0, 0;
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #727274;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 70px;
-    background-color: #727274;
-    padding: 10px 40px;
+.nav .logo{
+    font-size: 1.Srem;
+}
+
+.logo{
+      color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family:'Pricedown Bl';
+    font-size: 2.3em;
     
 }
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+
+.nav-links a:hover{
+    color: #00ff88;
+    text-shadow: 0 0 10px #00ff88;
+}
+
+.seleccion{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+    url("https://wallpapers.com/images/hd/gta-sa-4k-masked-man-f143gdql3uewgbda.jpg");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.seleccion h1{
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #00ff88;
+    text-shadow: 0 0 20px #00ff88;
+    margin-bottom: 20px;
+}
+
+.pagina{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 12px 30px;
+    background: #00ff88;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover{
+    background: black;
+    color: #00ff88;
+    box-shadow: 0 0 20px #00ff88;
+}
+
+
+
 
 .Mipagina{
     
     font-family:'Pricedown Bl';
-    
-}
-
-nav ul{
-    list-style: none;
-    padding: 6px;
-    margin: 0% auto;
-    display: flex;
-    grid-row: auto;
-    justify-content: center;
-    font-family:'Pricedown Bl';
-
-}
-
-.logo{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    gap:40px;
+    font-size: 2.3em;
     
     
 }
+/*navegacion (nav)*/
 
-.logo-img{
-    
-    height: 80px;
-    margin-right: 15px;
-    
-    
-}
 
-nav{
-    padding: 15px;
-}
-
-nav a{
-    padding: 10px;
-}
-
-nav a:hover{
-    color:azure
-}
-
-@media (min-width:600px){
-    header{
-        flex-direction: row;
-        padding: 0px 30px;
-        justify-content: space-between;
-    }
-}
 
 
 h1{
