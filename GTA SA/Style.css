@@ -2,13 +2,8 @@
 
 body{
     margin: 0;
-
-
-   background: #000000;
-  background: linear-gradient(
-    to right,
-    #ffffff,#727274   
-  );
+    background: linear-gradient(to right, #000000, #0a0a0a);
+    color: white;
 }
 /*encabezado*/
 .navbar{
@@ -134,14 +129,49 @@ h1{
 
 .subti01{
     font-family:'Pricedown Bl';
+    color: #ffffff;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px #343635;
+    border-left: 5px solid #00ff80;
+    padding-left: 10px;
 }
+
+
 .parrafo{
+    color: #ffffff;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.7;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 20px;
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+
 
 }
+
+.seccion{
+    display: flex;
+    align-items: center;      /* centra vertical */
+    justify-content: center;  /* centra todo */
+    gap: 40px;                /* espacio entre texto e imagen */
+    padding: 40px;
+}
+
+.textoizq{
+    width: 500px;
+    text-align: left;
+    color: white;
+}
+
+.textoder{
+    width: 500px;
+    text-align: left;
+    color: white;
+
+}
+
 
 /*Footer*/
 .footer{
@@ -151,6 +181,7 @@ h1{
     text-align: center;
     margin-top: 50px;
     border-top: 3px solid #00ff88;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer h2{
@@ -190,4 +221,35 @@ h1{
 }
 .ulti{
     font-family:'Pricedown Bl';
+}
+
+/*imagenes*/
+img{
+    display: block;
+    margin: auto;
+    border-radius: 60px;
+} 
+
+.img02{
+    width: 500px;
+    height: auto;
+}
+
+.img03{
+    width: 400px;    
+    border-radius: 60px;
+
+}
+
+.img04{
+    width: 500px;    
+    border-radius: 60px;
+}
+.img05{
+    width: 500px;    
+    border-radius: 60px;
+}
+.img06{
+    width: 500px;    
+    border-radius: 60px;
 }
