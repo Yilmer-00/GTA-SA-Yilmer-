@@ -229,48 +229,15 @@ img{
     margin: auto;
     border-radius: 60px;
 } 
-
-.img02{
+.img01{
     width: 500px;
     height: auto;
 }
-
+.img02{
+    width: 400px;    
+    border-radius: 60px;
+}
 .img03{
-    width: 400px;    
-    border-radius: 60px;
-
-}
-
-.img04{
-    width: 500px;    
-    border-radius: 60px;
-}
-.img05{
-    width: 500px;    
-    border-radius: 60px;
-}
-.img06{
-    width: 500px;    
-    border-radius: 60px;
-}
-.img07{
-    width: 500px;    
-    border-radius: 60px;
-}
-
-.img08{
-    width: 500px;    
-    border-radius: 60px;
-}
-.img09{
-    width: 300px;    
-    border-radius: 60px;
-}
-.img10{
-    width: 400px;    
-    border-radius: 60px;
-}
-.img11{
     width: 300px;    
     border-radius: 60px;
 
