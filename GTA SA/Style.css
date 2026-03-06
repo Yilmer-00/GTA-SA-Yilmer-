@@ -60,8 +60,8 @@ body{
     align-items: center;
     text-align: center;
 
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
-    url("https://media.revistagq.com/photos/671779f32cf09b5a52e00a24/16:9/w_2880,h_1620,c_limit/GTA%20San%20Andreas.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9));
+    
 
     background-size: cover;
     background-position: center;
@@ -73,7 +73,7 @@ body{
     font-weight: bold;
     letter-spacing: 4px;
     color: #00ff88;
-    text-shadow: 0 0 20px #00ff88;
+   
     margin-bottom: 20px;
 }
 
@@ -190,7 +190,7 @@ h1{
     color: #00ff88;
     margin-bottom: 10px;
     font-size: 28px;
-    text-shadow: 0 0 10px #00ff88;
+    
 }
 
 .footer p{
