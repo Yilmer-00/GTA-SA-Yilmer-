@@ -23,6 +23,13 @@ body{
     font-size: 1.Srem;
 }
 
+.usuario{
+    width: 90px;    
+    border-radius: 60px;
+
+
+}
+
 .logo{
       color: white;
     font-size: 1.4rem;
@@ -281,6 +288,7 @@ input{
     border-radius: 10px;
 }
 .btn01{
+    
     list-style: none;
     padding: 12px 30px;
     background: #00ff88;
@@ -293,7 +301,9 @@ input{
     
 }
 .btn01:hover{
+    align-items: center;
     background: black;
     color: #00ff88;
     box-shadow: 0 0 20px #00ff88;
 }
+
