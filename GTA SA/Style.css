@@ -4,7 +4,7 @@ html{
 }
 body{
     margin: 0;
-    background: linear-gradient(to right, #000000, #000000);
+    background: linear-gradient(to right, #dedede, rgb(59, 56, 56));
     color: white;
 }
 /*encabezado*/
@@ -13,7 +13,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: #262627;
+    background: #000000;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -66,6 +66,13 @@ body{
     text-shadow: 0 0 10px #00ff88;
 }
 
+table, th ,td{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(44, 44, 44); 
+    padding: 8px;
+    margin: auto;
+}
+
 .seleccion{
     height: 90vh;
     display: flex;
@@ -110,11 +117,7 @@ body{
     
 }
 
-.btn:hover{
-    background: black;
-    color: #00ff88;
-    box-shadow: 0 0 20px #00ff88;
-}
+
 
 
 
@@ -151,13 +154,12 @@ h1{
     margin-top: 40px;
     margin-bottom: 15px;
     text-shadow: 0 0 10px #343635;
-    border-left: 5px solid #00ff80;
     padding-left: 10px;
 }
 
 
 .parrafo{
-    color: #ffffff;
+    color: #1b1b1b;
     font-size: 18px;
     line-height: 1.7;
     max-width: 900px;
