@@ -24,10 +24,16 @@ body{
 }
 
 .usuario{
-    width: 90px;    
+    width: 80px;    
     border-radius: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
 
 
+}
+.usuario img:hover {
+  transform: scale(1.1);
 }
 
 .logo{
@@ -39,6 +45,7 @@ body{
     font-size: 2.3em;
     
 }
+
 
 .nav-links{
     display: flex;
