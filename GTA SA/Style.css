@@ -4,7 +4,7 @@ html{
 }
 body{
     margin: 0;
-    background: linear-gradient(to right, #000000, #0a0a0a);
+    background: linear-gradient(to right, #000000, #000000);
     color: white;
 }
 /*encabezado*/
@@ -170,9 +170,9 @@ h1{
 
 .seccion{
     display: flex;
-    align-items: center;      /* centra vertical */
+    align-items: center; /* centra vertical */
     justify-content: center;  /* centra todo */
-    gap: 40px;                /* espacio entre texto e imagen */
+    gap: 40px; /* espacio entre texto e imagen */
     padding: 40px;
 }
 
