@@ -4,7 +4,7 @@ html{
 }
 body{
     margin: 0;
-    background: linear-gradient(to right, #dedede, rgb(59, 56, 56));
+    background: linear-gradient(to right, #000000, rgb(0, 0, 0));
     color: white;
 }
 /*encabezado*/
@@ -29,15 +29,18 @@ body{
     border-radius: 50%;
     cursor: pointer;
     transition: transform 0.3s;
+    
 
 
 }
 .usuario img:hover {
   transform: scale(1.1);
+  
+  
 }
 
 .logo{
-      color: white;
+    color: white;
     font-size: 1.4rem;
     font-weight: bold;
     letter-spacing: 1px;
@@ -64,13 +67,6 @@ body{
 .nav-links a:hover{
     color: #00ff88;
     text-shadow: 0 0 10px #00ff88;
-}
-
-table, th ,td{
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(44, 44, 44); 
-    padding: 8px;
-    margin: auto;
 }
 
 .seleccion{
@@ -114,6 +110,7 @@ table, th ,td{
     border-radius: 8px;
     transition: 0.3s;
     font-family: Arial, Helvetica, sans-serif;
+    
     
 }
 
@@ -159,7 +156,7 @@ h1{
 
 
 .parrafo{
-    color: #1b1b1b;
+    color: #ffffff;
     font-size: 18px;
     line-height: 1.7;
     max-width: 900px;
@@ -316,3 +313,28 @@ input{
     box-shadow: 0 0 20px #00ff88;
 }
 
+/*Tablas*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 20;
+
+}
+th, td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+
+
+}
+th{
+    color: white;
+    background-color: rgb(129, 129, 129);
+}
+tr:hover{
+    background-color: rgb(146, 146, 146);
+    cursor: pointer;
+}
+tr:nth-child(even){
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+}
